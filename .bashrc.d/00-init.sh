@@ -33,3 +33,7 @@ function y() {
 ## go setup
 export PATH=$PATH:/usr/local/go/bin
 export PATH="$PATH:$(go env GOPATH)/bin"
+
+# bun setup
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
