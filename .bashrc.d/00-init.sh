@@ -8,6 +8,7 @@ alias c=clear
 alias q=exit
 alias v=vim
 alias lg=lazygit
+alias tn="~/.tmux/tmux-new.sh"
 
 alias open=xdg-open
 
