@@ -29,3 +29,7 @@ function y() {
 
 ## cargo setup
 . "$HOME/.cargo/env"
+
+## go setup
+export PATH=$PATH:/usr/local/go/bin
+export PATH="$PATH:$(go env GOPATH)/bin"
